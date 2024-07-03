@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Header Section */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  max-height: 69px;
+}
+
+#nav-bar .action-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.action-items {
+  display: flex;
+  margin: 10px;
+}
+
+.action-items li {
+  text-decoration: underline;
+  list-style: none;
+  padding: 10px;
+}
+
+.action-items li a {
+  color: seashell;
+}
+
+.action-items li a:hover {
+  color: #ffffff;
+}
+
+/* Main section */
+
+#mission {
+  min-height: 700px;
+  background: url("resources/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto 50px;
+  position: relative;
+}
+
+.mission-statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  opacity: 1;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-top: 5px;
+  line-height: 50px;
+}
