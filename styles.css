@@ -76,3 +76,31 @@ body {
   padding-top: 5px;
   line-height: 50px;
 }
+
+/* Types of Tea Section */
+
+#details {
+  margin: 50px auto;
+  width: 90%;
+}
+
+#details img {
+  width: 300px;
+  height: 200px;
+}
+
+#tea-types {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tea {
+  margin: 15px;
+  padding: 5px;
+}
+
+#details h4 {
+  padding: 20px;
+}
