@@ -104,3 +104,45 @@ body {
 #details h4 {
   padding: 20px;
 }
+
+/* Location Section */
+#locations {
+  min-height: 500px;
+  background: url("resources/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto 50px;
+  margin-bottom: 20px;
+}
+
+.location-header {
+  font-weight: bolder;
+  padding: 40px;
+  font-size: 50px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-box {
+  margin: 30px;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  padding: 15px;
+  line-height: 50px;
+}
+
+#footer {
+  opacity: 0.9;
+  height: 200px;
+}
+
+.copyright {
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
